@@ -56,7 +56,20 @@ body {
   -webkit-backdrop-filter: blur(3px);
 }
 
+a:link, a:visited{
+  color: #f1f1f1;
+}
+
+
 .footer button{
+  background-color: #003d82;
+  padding: 8px 16px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 
 }
 .copyrigth{

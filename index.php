@@ -1,11 +1,11 @@
 <?php include_once "header.php";?>
   <body>
   <div id="welcomeMessage" class="welcome-popup">
-  Bienvenue sur Enigma Chat !
+  Bienvenue sur Enigma Chat
   </div>
     <div class="wrapper">
       <section class="form signup">
-        <header>Enigma Chat !</header>
+        <header>Enigma Chat</header>
         <form action="#" enctype="multipart/form-data" autocomplete="off">
           <div class="error-txt"></div>
           <div class="name-details">
@@ -41,11 +41,11 @@
         <div class="link">Already signed up? <a href="login.php">Login now</a></div>
       </section>
       <footer class="copyrigth">
-        <p>© 2024 Enigma Chat - All rights reserved.</p>
+        <p>© 2024 Enigma Chat Russell Devers. Logo by hypr - All rights reserved.</p>
       </footer>
     </div>
   <footer class="footer">
-    <button><a href="#">Qui somme nous</a></button> <span>|</span> <button><a href="">Nous contacter</a></button>
+    <button><a href="quisommenous.html">Qui sommes nous</a></button> <span>|</span> <button><a href="">Nous contacter</a></button>
   </footer>
     <script src="javascript/pass-show-hide.js"></script>
     <script src="javascript/signup.js"></script>

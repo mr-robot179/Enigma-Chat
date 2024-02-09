@@ -21,6 +21,9 @@
         <div class="link">Not yet signed up? <a href="index.php">Singnup now</a></div>
       </section>
     </div>
+    <footer class="footer">
+    <button><a href="quisommenous.html">Qui sommes nous</a></button> <span>|</span> <button><a href="">Nous contacter</a></button>
+  </footer>
     <script src="javascript/pass-show-hide.js"></script>
     <script src="javascript/login.js"></script>
   </body>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e6e6e6;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 55px;
+    background-image: linear-gradient(to bottom, #1e81b0, #b6d0e2);
+    margin-top: 0;
+    color: azure;
+}
+
+.content h2{
+    text-align: center;
+    margin-top: 0;
+    font-size: 30px;
+    margin-bottom: 1px;
+    font-weight: unset;
+}
+
+.content p{
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.5;
+    font-size: 19px;
+    line-height: 1.9;
+    color: #1a1a1a;
+}
+
+.content{
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    background-image: url(php/images/ciel-clair-nuages.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph{
+    width: 50%;
+    padding: 1em;
+}
+
+.content3 {
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.content3 h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.value-section-1,
+.value-section-2,
+.value-section-3 {
+    margin: 10px;
+    flex: 0 0 auto;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.value-section-1:hover,
+.value-section-2:hover,
+.value-section-3:hover{
+    transform: translatey(-10px);
+}
+
+.value-section-1 h3,
+.value-section-2 h3,
+.value-section-3 h3 {
+    color: #0077cc;
+    margin-bottom: 0.5em;
+}
+
+.value-section-1 p,
+.value-section-2 p,
+.value-section-3 p {
+    color: #666;
+    line-height: 1.5;
+    text-align: left;
+}
