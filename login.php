@@ -22,7 +22,7 @@
       </section>
     </div>
     <footer class="footer">
-    <button><a href="quisommenous.html">Qui sommes nous</a></button> <span>|</span> <button><a href="">Nous contacter</a></button>
+    <button><a href="quisommenous.html">Qui sommes nous</a></button> <span>|</span> <button><a href="contact.html">Nous contacter</a></button>
   </footer>
     <script src="javascript/pass-show-hide.js"></script>
     <script src="javascript/login.js"></script>

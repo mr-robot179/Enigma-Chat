@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -23,6 +23,8 @@ header h1{
     font-size: 30px;
     margin-bottom: 1px;
     font-weight: unset;
+    font-family:'Open Sans', sans-serif;
+    color: #0077cc;
 }
 
 .content p{
@@ -60,12 +62,17 @@ header h1{
     text-align: center;
     padding: 20px;
     background: #f0f0f0;
+    color:#333;
+    font-family: 'Open+Sans', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 6px -6px #000
 }
 
 .content3 h2 {
     font-size: 2em;
-    color: #333;
+    color: #0077cc;
     margin-bottom: 1em;
+    letter-spacing: 2px
 }
 
 .scroll-container {
@@ -73,7 +80,7 @@ header h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 275px;
     overflow-x: auto;
     padding-bottom: 20px;
 }
@@ -111,4 +118,32 @@ header h1{
     color: #666;
     line-height: 1.5;
     text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer button {
+    background-color: #ff4757;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: normal;
 }
